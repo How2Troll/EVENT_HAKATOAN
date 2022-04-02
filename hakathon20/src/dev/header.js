@@ -31,9 +31,10 @@ export default function Header() {
   
           <Typography variant="h6" 
             component="div" sx={{ flexGrow: 1 }}>
-            GeeksforGeeks Header
+            TUTAJ_NAZWA
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button href="TUTAJ_NAZWA/login" color="inherit">Login</Button>
+
         </Toolbar>
       </AppBar>
   );
