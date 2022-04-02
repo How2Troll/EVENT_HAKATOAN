@@ -1,22 +1,12 @@
-
-import './App.css';
-import Header from './dev/header';
-import Login from './dev/login.js';
-import Info from './dev/info.js'
-
+import React from "react";
+import Header from "./dev/header";
+  
 function App() {
   return (
-    <div className="App">
-      <div className='Header'>
-        <header>
-          <Header/>
-        </header>
-        <body>
-          Body of our main page
-        </body>
-      </div>
-    </div>
+  
+   // Using the newly created Header 
+   // component in this main component
+   <Header/>
   );
 }
-
 export default App;
